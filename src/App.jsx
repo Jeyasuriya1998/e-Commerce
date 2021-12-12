@@ -11,15 +11,20 @@ export default class App extends Component {
   render() {
     return (
       
-        <BrowserRouter>
-        <NavBar />
-          <Routes>
-            <Route path="/" component={Login}/>
-            <Route path="/dashboard" exact component={Dashboard} />
-            <Route path="/customers" exact component={CustomersList} />
-            <Route path="/cart" exact component={ShoppingCard} /> 
-          </Routes>
-        </BrowserRouter>
+        // <BrowserRouter>
+        // <NavBar />
+        //   <Routes>
+        //     <Route path="/" component={Login}/>
+        //     <Route path="/dashboard" exact component={Dashboard} />
+        //     <Route path="/customers" exact component={CustomersList} />
+        //     <Route path="/cart" exact component={ShoppingCard} /> 
+        //   </Routes>
+        // </BrowserRouter>
+
+        <React.Fragment>
+          <NavBar />
+          <ShoppingCard />
+        </React.Fragment>
       
       
     );

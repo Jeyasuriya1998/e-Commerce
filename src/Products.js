@@ -5,7 +5,7 @@ export default class Products extends Component {
         console.log("Product = Constructor")
         super(props);
         this.state ={
-            product: this.props.prouct
+            product: this.props.product
         }
     }
     
@@ -16,7 +16,7 @@ export default class Products extends Component {
                 <div className="card m-2">
                     <div className="card-body">
                         <div className="text-muted">
-                            #{this.state.product.id}
+                            # {this.state.product.id}
                             <span className="pull-right hand-icon" onClick={() => this.props.onDelete(this.state.product)}>
                                 <i className="fa fa-times"></i>
                             </span>
