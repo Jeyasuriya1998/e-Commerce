@@ -77,6 +77,7 @@ git add .
 git commit -m "e-Commerce First"
 git branch -M e-Commerce
 git remote add origin https://github.com/Jeyasuriya1998/e-Commerce.git
+git remote add origin https://github.com/Jeyasuriya1998/e-Commerce.git
 git push -u origin e-Commerce
 
 # …or push an existing repository from the command line
