@@ -1,0 +1,18 @@
+.highlight {
+    background-color: aliceblue;
+}
+.nav-style {
+    background-color: rgb(76, 196, 40) !important;
+}
+.green-highlight{
+    color:rgb(32, 252, 4);
+    font-size:40px;
+}
+.red-highlight{
+    color:red;
+    font-size:25px;
+}
+
+.hand-icon{
+    cursor:pointer;
+}
